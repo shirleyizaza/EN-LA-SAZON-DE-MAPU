@@ -6,3 +6,4 @@ def inicio(request):
         "titulo": titulo,
     }
     return render(request, 'index.html', context)
+

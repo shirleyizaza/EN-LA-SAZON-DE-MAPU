@@ -4,7 +4,7 @@
 {% block contenido %}
 <!-- Inicia el main -->
 <main>
-    <div id="myCarousel" class="carousel slide h-50" data-bs-ride="carousel">
+    <div id="myCarousel" class="carousel slide h-70" data-bs-ride="carousel">
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true"
                 aria-label="Slide 1"></button> 
@@ -13,53 +13,47 @@
         </div>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+                <img class="bd-placeholder-img" width="48%" height="100%" src="{% static 'img/mi chef.jpg' %}"
                     aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
-                    <rect width="100%" height="100%" fill="#777"></rect>
-                </svg>
+                    <img class="bd-placeholder-img" width=48%" height="100%" src="{% static 'img/cayeye.jpg' %}"
+                    aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+               
+                    
                 <div class="container">
                     <div class="carousel-caption text-start">
-                        <h1>Ejemplo de encabezado.</h1>
+                        <h1>EN LA SAZÓN DE MAPU</h1>
                         <p>
-                            Algo de contenido placeholder representativo para la primera
-                            diapositiva del carrusel.
+                            En esta página, puedes encontrar recetas super faciles para prepara en un momento de hambre. 
                         </p>
-                        <p><a class="btn btn-lg btn-primary" href="#">Regístrate hoy</a></p>
+                        <p><a class="btn btn-lg btn-primary" href="#">Aprendamos Juntos</a></p>
                     </div>
                 </div>
             </div>
             <div class="carousel-item">
-                <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+                <img class="bd-placeholder-img" width="100%" height="100%" src="{% static 'img/frutica.jpg' %}"
                     aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
-                    <rect width="100%" height="100%" fill="#777"></rect>
-                </svg>
+                    
                 <div class="container">
                     <div class="carousel-caption">
-                        <h1>Otro titular de ejemplo.</h1>
-                        <p>
-                            Algo de contenido placeholder representativo para la segunda
-                            diapositiva del carrusel.
-                        </p>
-                        <p>
-                            <a class="btn btn-lg btn-primary" href="#">Más información</a>
+                        <h1>Diviertete preparando ricas recetas</h1>
+                        <p> Disfruta este tiempo transformando ingredientes.
+                        
+                        <p> <a class="btn btn-lg btn-primary" href="#">Más información</a>
                         </p>
                     </div>
                 </div>
             </div>
             <div class="carousel-item">
-                <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+                <img class="bd-placeholder-img" width="100%" height="100%" 
+                src="{% static 'img/torta.jpg' %}"
                     aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
-                    <rect width="100%" height="100%" fill="#777"></rect>
-                </svg>
+                    
                 <div class="container">
                     <div class="carousel-caption text-end">
-                        <h1>Uno más por si acaso.</h1>
-                        <p>
-                            Algo de contenido placeholder representativo para la tercera
-                            diapositiva de este carrusel.
+                        <h1>Ponte tú mejor pinta, para convertirte en un super chef.</h1>
+                        <p>Invita a todos tus amigos para divertircen juntos.
                         </p>
-                        <p>
-                            <a class="btn btn-lg btn-primary" href="#">Explorar galería</a>
+                        <p> <a class="btn btn-lg btn-primary" href="#">Explorar galería</a>
                         </p>
                     </div>
                 </div>
@@ -76,124 +70,119 @@
     </div>
 
     <div class="container marketing">
-        <div class="row">
-            <div class="col-lg-4">
-                <svg class="bd-placeholder-img rounded-circle" width="140" height="140"
-                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140"
-                    preserveAspectRatio="xMidYMid slice" focusable="false">
-                    <title>Placeholder</title>
-                    <rect width="100%" height="100%" fill="#777"></rect>
-                    <text x="50%" y="50%" fill="#777" dy=".3em">140x140</text>
-                </svg>
-                <h2>Encabezado</h2>
-                <p>
-                    Algo de contenidoplaceholder representativo para las tres columnas de
-                    texto debajo del carrusel. Esta es la primera columna.
-                </p>
-                <p><a class="btn btn-secondary" href="#">Ver detalles »</a></p>
+            <div class="row">
+                <div class="col-lg-4">
+                    <img class="bd-placeholder-img rounded-circle" width="140" height="140"
+                    src="{% static 'img/decorar1.jpg' %}" role="img" aria-label="Placeholder: 140x140"
+                        preserveAspectRatio="xMidYMid slice" focusable="false">
+                        <title>Placeholder</title>
+                       
+                    <h2>Decora con tu estilo</h2>
+                    <p>Dibujemos en nuestras tortas.
+                    </p>
+                    <p><a class="btn btn-secondary" href="#">Ver detalles »</a></p>
+                </div>
+                <div class="col-lg-4">
+                    <img class="bd-placeholder-img rounded-circle" width="140" height="140"
+                        src="{% static 'img/pan1.jpg' %}" role="img" aria-label="Placeholder: 140x140"
+                        preserveAspectRatio="xMidYMid slice" focusable="false">
+                        <title>Placeholder</title>
+                    <h2>Amacemos con Mapu</h2>
+                    <p>
+                        Diviertete preparando ricas recetas.
+                    </p>
+                    <p><a class="btn btn-secondary" href="#">Ver detalles »</a></p>
+                </div>
+                <div class="col-lg-4">
+                    <img class="bd-placeholder-img rounded-circle" width="140" height="140"
+                        src="{% static 'img/huevos7.jpeg' %}" role="img" aria-label="Placeholder: 140x140"
+                        preserveAspectRatio="xMidYMid slice" focusable="false">
+                        <title>Placeholder</title>
+                    <h2>Rico desayuno</h2>
+                    <p>
+                        Picar vejetales es la forma más increible de botar lagrimas, sin estar triste.
+                    </p>
+                    <p><a class="btn btn-secondary" href="#">Ver detalles »</a></p>
+                </div>
             </div>
-            <div class="col-lg-4">
-                <svg class="bd-placeholder-img rounded-circle" width="140" height="140"
-                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140"
-                    preserveAspectRatio="xMidYMid slice" focusable="false">
-                    <title>Placeholder</title>
-                    <rect width="100%" height="100%" fill="#777"></rect>
-                    <text x="50%" y="50%" fill="#777" dy=".3em">140x140</text>
-                </svg>
-                <h2>Encabezado</h2>
-                <p>
-                    Otro fragmento emocionante de contenidoplaceholder representativo.
-                    Esta vez, pasamos a la segunda columna.
-                </p>
-                <p><a class="btn btn-secondary" href="#">Ver detalles »</a></p>
-            </div>
-            <div class="col-lg-4">
-                <svg class="bd-placeholder-img rounded-circle" width="140" height="140"
-                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140"
-                    preserveAspectRatio="xMidYMid slice" focusable="false">
-                    <title>Placeholder</title>
-                    <rect width="100%" height="100%" fill="#777"></rect>
-                    <text x="50%" y="50%" fill="#777" dy=".3em">140x140</text>
-                </svg>
-                <h2>Encabezado</h2>
-                <p>
-                    Y, por último, esta, la tercera columna de contenidoplaceholder
-                    representativo.
-                </p>
-                <p><a class="btn btn-secondary" href="#">Ver detalles »</a></p>
-            </div>
-        </div>
+            
 
-        <hr class="featurette-divider" />
-        <div class="row featurette">
+
+            
+            
+            
+         <hr class="featurette-divider" />
+         <div class="row featurette">
+             <div class="col-md-7">
+                 <h2 class="featurette-heading">
+                    Preparemos juntos una rica pizza.
+                     <span class="text-muted">Te dejará boquiabierto con los sabores.</span>
+           </h2>
+            <p class="lead">
+                Estaremos preparando una deliciosa pizza para tener un compartir con nuestros más allegados. </p>
+             </div>
+             <div class="col-md-5">
+                 <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+                      height="500" src="{% static 'img/pizza1.jpg' %}" role="img" aria-label="Placeholder: 500x500"
+                      preserveAspectRatio="xMidYMid slice" focusable="false">
+                       <title>Placeholder</title>
+                                            
+            </div>
+         </div>
+         <hr class="featurette-divider" />
+         <div class="row featurette">
+             <div class="col-md-7 order-md-2">
+                 <h2 class="featurette-heading">
+                     Alimentrnos de forma saludable. <span class="text-muted"> Cuida tú mismo de tí .</span>
+                 </h2>
+                 <p class="lead">
+                    Debemos cuidar nuestro cuerpo, dandole alimentos saludables y así tener una buena calidad de vida. </p>
+                 </div>
+                 <div class="col-md-5 order-md-1">
+                    <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+                         height="500" src="{% static 'img/ensalada.jpeg' %}" role="img" aria-label="Placeholder: 500x500"
+                         preserveAspectRatio="xMidYMid slice" focusable="false">
+                         <title>Placeholder</title>
+                </div>
+            </div>
+            <hr class="featurette-divider" />
+            <div class="row featurette">
             <div class="col-md-7">
-                <h2 class="featurette-heading">
-                    Encabezado del primer reportaje.
-                    <span class="text-muted">Te dejará boquiabierto.</span>
-                </h2>
-                <p class="lead">
-                    Excelente contenido de marcador de posición para el primer artículo
-                    aquí. Imagina algo de prosa emocionante aquí.
+                 <h2 class="featurette-heading">
+                     Diviertete creando ricas recetas. <span class="text-muted">con MAPU.</span>
+                 </h2>
+                 <p class="lead">
+                     La cocina es  arte y pasion, todo lo podemos hacer con amor y dedicacion, sin tener tantos ingredientes realizaremos ricas recetas.
                 </p>
-            </div>
-            <div class="col-md-5">
-                <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
-                    height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500"
-                    preserveAspectRatio="xMidYMid slice" focusable="false">
-                    <title>Placeholder</title>
-                    <rect width="100%" height="100%" fill="#eee"></rect>
-                    <text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text>
-                </svg>
+          </div>
+          <div class="col-md-5">
+               <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+                     height="500" src="{% static 'img/chef.jpg' %}" role="img" aria-label="Placeholder: 500x500"
+                     preserveAspectRatio="xMidYMid slice" focusable="false">
+                     <title>Placeholder</title>
+               </div>
+
             </div>
         </div>
         <hr class="featurette-divider" />
         <div class="row featurette">
-            <div class="col-md-7 order-md-2">
-                <h2 class="featurette-heading">
-                    Oh, sí, es tan bueno. <span class="text-muted">Míralo tú mismo.</span>
-                </h2>
-                <p class="lead">
-                    ¿Otro reportaje? Por supuesto. Más contenido de marcador de posición
-                    aquí para darle una idea de cómo funcionaría este diseño con algún
-                    contenido del mundo real en su lugar.
-                </p>
-            </div>
-            <div class="col-md-5 order-md-1">
-                <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
-                    height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500"
-                    preserveAspectRatio="xMidYMid slice" focusable="false">
-                    <title>Placeholder</title>
-                    <rect width="100%" height="100%" fill="#eee"></rect>
-                    <text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text>
-                </svg>
-            </div>
+        <div class="col-md-7">
+             <h2 class="featurette-heading">
+                 Diviertete con tus amigos. <span class="text-muted">Día de chicas.</span>
+             </h2>
+             <p class="lead">
+                 La cocina es  arte, pasión y diversión, con las personas que más queremos. llama a todos para cocinar. </p>
+      </div>
+      <div class="col-md-5">
+           <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+                 height="500" src="{% static 'img/torta1.jpg' %}" role="img" aria-label="Placeholder: 500x500"
+                 preserveAspectRatio="xMidYMid slice" focusable="false">
+                 <title>Placeholder</title>
+           </div>
+
         </div>
         <hr class="featurette-divider" />
-        <div class="row featurette">
-            <div class="col-md-7">
-                <h2 class="featurette-heading">
-                    Y por último, este. <span class="text-muted">Jaque mate.</span>
-                </h2>
-                <p class="lead">
-                    Y sí, este es el último bloque de contenido de marcador de posición
-                    representativo. Una vez más, no está destinado a ser leído realmente,
-                    simplemente aquí para darle una mejor vista de cómo se vería esto con
-                    algún contenido real. Tu contenido.
-                </p>
-            </div>
-            <div class="col-md-5">
-                <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
-                    height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500"
-                    preserveAspectRatio="xMidYMid slice" focusable="false">
-                    <title>Placeholder</title>
-                    <rect width="100%" height="100%" fill="#eee"></rect>
-                    <text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text>
-                </svg>
-            </div>
-        </div>
-        <hr class="featurette-divider" />
-    </div>
+   </div>
 </main>
 <!-- Finaliza el main -->
-{% endblock contenido %}
-
+{% endblock contenido %}     
